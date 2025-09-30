@@ -33,19 +33,9 @@ dependencies = [
     "warp-lang>=1.9.0.dev20250825",
 ]
 
-[[tool.uv.index]]
-name = "nvidia"
-url = "https://pypi.nvidia.com"
-explicit = true
-
-[[tool.uv.index]]
-name = "mujoco"
-url = "https://py.mujoco.org/"
-explicit = true
-
 [tool.uv.sources]
-warp-lang = {index = "nvidia"}
-mujoco = {index = "mujoco"}
+warp-lang = {index = "https://pypi.nvidia.com"}
+mujoco = {index = "https://py.mujoco.org/"}
 
 [project.optional-dependencies]
 dev = [
