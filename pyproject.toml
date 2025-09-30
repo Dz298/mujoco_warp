@@ -33,10 +33,6 @@ dependencies = [
     "warp-lang>=1.9.0.dev20250825",
 ]
 
-[tool.uv.sources]
-warp-lang = {index = "https://pypi.nvidia.com"}
-mujoco = {index = "https://py.mujoco.org/"}
-
 [project.optional-dependencies]
 dev = [
     "pre-commit",
